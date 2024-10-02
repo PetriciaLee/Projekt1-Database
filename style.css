@@ -1,0 +1,120 @@
+html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+	background-color:#ffffff;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 auto;
+}
+
+#logo{
+    border-bottom: dotted 2px #1995AD; 
+}
+#logo img {margin-top:5%;
+           margin-left:10%;
+           width:80%; 
+           margin-bottom: 0px;
+}
+input {
+	background-color: #fff;
+	border:1px solid #1995AD;
+	width:80%;
+	padding:3px;
+	margin-top:18px;
+}
+
+img {
+	max-width:100%;
+	margin-top: 15%;
+    margin-bottom: 4% ;
+}
+
+#sadrzaj{
+    margin-top:0;
+    width:80%;
+ 
+    margin-left: 10%;
+    background-color: #F1F1F2;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+	
+}
+.sadrzaj .p {
+    color:black;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+footer {
+    clear: both;
+	width:100%;
+    margin-top: 3%px;
+	line-height:40px;
+	background-color: #1995AD;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0 px;
+}
+
+
+
+.img{
+	width: 100%;
+	height:auto;
+	}
+
+.button {
+    color: white;
+    border:2px solid black;
+    background-color: #98c4cc;
+    font-size: 16px;
+    width: 30%;
+    padding: 1% 5%;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    align-self: center;
+}
+
+.box_obrazac {
+    margin: 0 auto;
+    width:80%;
+    background-color: #98c4cc;
+    padding: 15px; 
+    border: 2px dotted #1995AD;
+     border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+        
+.obrazac {
+    background-color: white;
+    border: none;
+    padding: 1%;
+    width: 60%; 
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obrazac:hover {
+    box-shadow: 5px 3px 10px 0 white;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 5px 10px 0 #d8d8d8;
+    transition: 0.3s;
+}  
+

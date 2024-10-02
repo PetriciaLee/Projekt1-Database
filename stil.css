@@ -1,0 +1,332 @@
+/* CSS Document */
+
+body {
+    margin:0;
+    padding:0;
+    font-family: "Verdana";
+    font-size: 18px;
+    line-height: normal;
+}
+
+#glavni {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+   background-image: url(Projekt1/logo.jpg);
+    background-image: repeat; 
+    color:black;
+    
+}
+//**nav {
+    background-color: #ba5354 ;
+    height:50px;
+    text-align: center;
+    padding-right:50px;
+    position:fixed;
+    width: 100%;
+}
+nav a {
+    text-decoration:none;
+    color: white;
+    font-family: Comic MS;
+    font-size: 30px;
+    display: inline-block;
+    height: 50px;
+    line-height:50px;
+    padding: 0 1%;
+} 
+nav a:hover{
+    background-color: #bc7d2d;
+    border-radius: 7px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 1%;
+}
+nav ul li {
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+nav ul li a {
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    line-height: 60px;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: #bc7d2d;
+}
+nav ul li > ul {
+    width: 100px;
+    position: absolute;
+    display: none;
+    background-color: #ba5354;
+}
+nav ul li > ul li {
+    line-height: 50px;
+    height: 50px;
+    width: 100px;
+    margin-left: 0px;
+}
+nav ul li > ul li a {
+    height: 50px;
+    width: 100px;
+}
+nav ul li:hover > ul{
+    position: absolute;
+    display : block;
+    background-color: #ba5354;
+    opacity: 0.9;
+}
+nav ul li > ul > li ul a  {
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+}
+nav ul li > ul > li:hover > ul  {
+    position: absolute;
+    display : block;
+    margin-left:100%;
+    margin-top: -2em;
+}
+
+**/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.meni2 {
+    display: none;
+}
+
+@media screen and (max-width: 1372px)
+{ 
+    
+        .meni2{
+        display: block;
+        height: 40px;
+        width:100%;
+        background-image: url(slike/ikonica.png);
+        background-repeat: no-repeat;
+        background-position: 98% center; 
+        background-color: #ba5354;
+		cursor: pointer;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    .nav-expanded {
+		display:block;
+        background-color: #ba5354;
+	} 
+    
+    nav ul li{
+        width: 100%;
+        margin: 0;
+        border-bottom: 2px solid #d5dce4;
+        background-color: #ba5354;
+    }
+    
+    nav ul li:last-child {
+		border-bottom: none;
+	}
+    
+}
+
+
+
+
+#logo {
+    background-image: url(slike/carava1.jpg);
+    width:100%;
+    height:auto;
+    
+}
+
+.img1 {
+    max-width: 100%;
+    height: 400px;
+    display: block;  
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  
+}
+//***
+#logo {
+    width: 100%;
+  
+}
+nav {
+    background-color: #5f4a3a;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    max-width: 1920px;;
+    text-align: center;
+    opacity:0.9;
+	border-bottom: 2px solid #8a6f59;
+	
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 99;
+    line-height: 100%;
+    padding: 0% 2%;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 0px 0px 0px 0px;
+    float: right;
+    line-height: 50px;
+
+}
+nav div a {
+   color: white;
+    text-decoration: none;
+    font-size: 25px;
+    z-index: 99;
+    line-height: 100%;
+    padding: 0% 2%;
+    display: inline-block;
+    transition: 0.2s;
+    border-radius: 0px 0px 0px 0px;
+    float: left;
+    line-height: 50px; 
+}
+nav a:hover {
+    background-color: #7ca1aa;
+	color:white;
+}
+
+**//
+
+footer {
+    clear: both;
+    height: 50px;
+    background-color: #8a6f59;
+    text-align: center;
+    line-height:50px;
+    border-top: solid 1px #1d1d1d;
+    padding-right: 2%;
+    color: black;
+	font-size:16px;
+}
+
+.slike {
+    padding: 10px;
+    float:right;
+}
+.slike1 {
+    padding: 10px;
+    float:left;
+}
+.slike2 {
+    padding: auto;
+   float:center;
+   margin-left:200px;
+
+}
+
+
+#sadrzaj {
+    width:70%;
+    background-color: #fff3d6;
+    padding: 1% 2%;
+	margin:0 auto;
+	border: dotted;
+	border-width: 2px;
+  
+}
+
+h1 {
+    text-align: center;
+	font-family: Comic Sans MS;
+}
+p {
+    text-align: justify;
+	font-family: Comic Sans MS;
+}
+
+
+hr {
+	color:black;
+}
+}
+button {
+    color: white;
+    border:2px solid black;
+    background-color: #9099A2;
+    font-size: 16px;
+    padding: 1% 5%;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    align-self: center;
+}
+
+.box_obrazac {
+            margin: 0 auto;
+            width:50%;
+            background-color: #9daeb2;
+            padding: 15px; 
+            border: 2px dotted #5f4a3a;
+        }
+        
+.obrazac {
+    background-color: white;
+    border: none;
+    padding: 1%;
+    width: 60%; 
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obrazac:hover {
+    box-shadow: 5px 3px 10px 0 white;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 5px 10px 0 white;
+    transition: 0.3s;
+}  
