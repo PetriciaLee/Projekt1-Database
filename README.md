@@ -108,8 +108,6 @@ This project is PRIVATE and strictly intended for personal/educational use.
 
 ---
 
-## 📞 Contact
-
 Made with ❤️ by Petra J.
 
 For any questions or feedback, feel free to open an issue or reach out via GitHub.
